@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Asteroids</title>
+    <meta charset="UTF-8" />
+
+    <style>
+    #gameScreen {
+        border: 2px solid grey;
+    }
+    #hudScreen {
+        border: 2px solid grey;
+    };
+    </style>
+</head>
+
+<body style="background-color:white">
+    <b>Asteroids</b><br />
+    <label id="coord_label"></label><br />
+    <canvas id="gameScreen" width="800" height="520"></canvas>
+    <canvas id="hudScreen" width="800" height="80"></canvas>
+    <script type="module" src="./src/index.js"></script>
+    <script type="module" src="./src/game.js"></script>
+</body>
+
+
+</html>
